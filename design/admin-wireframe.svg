@@ -1,0 +1,35 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="900" fill="#F4EFE6"/>
+  <rect x="40" y="32" width="1320" height="76" rx="20" fill="#FFF8EF" stroke="#B8A898"/>
+  <text x="70" y="79" font-family="Arial, sans-serif" font-size="28" fill="#7B5B33">KBC Learning Orbit</text>
+  <text x="1070" y="79" font-family="Arial, sans-serif" font-size="22" fill="#4C5B53">Catalog   Admin   Logout</text>
+
+  <text x="60" y="168" font-family="Arial, sans-serif" font-size="22" fill="#A66B2C">ADMIN FLOW</text>
+  <text x="60" y="214" font-family="Arial, sans-serif" font-size="48" fill="#1D1B18">Author content and monitor activity side by side</text>
+
+  <rect x="60" y="280" width="760" height="560" rx="28" fill="#FFFDF9" stroke="#BAAF9D"/>
+  <text x="95" y="330" font-family="Arial, sans-serif" font-size="32" fill="#1D1B18">Course Authoring Panel</text>
+  <rect x="95" y="370" width="690" height="48" rx="14" fill="#F2E4CF" stroke="#B39F88"/>
+  <rect x="95" y="434" width="690" height="48" rx="14" fill="#F2E4CF" stroke="#B39F88"/>
+  <rect x="95" y="498" width="690" height="92" rx="14" fill="#F2E4CF" stroke="#B39F88"/>
+  <rect x="95" y="614" width="220" height="54" rx="27" fill="#0D7A5F"/>
+  <text x="137" y="649" font-family="Arial, sans-serif" font-size="22" fill="#FFFFFF">Create course</text>
+  <text x="110" y="402" font-family="Arial, sans-serif" font-size="22" fill="#1D1B18">title</text>
+  <text x="110" y="466" font-family="Arial, sans-serif" font-size="22" fill="#1D1B18">category</text>
+  <text x="110" y="554" font-family="Arial, sans-serif" font-size="22" fill="#1D1B18">description</text>
+
+  <rect x="95" y="702" width="690" height="100" rx="18" fill="#E7F0EB" stroke="#9BB7AB"/>
+  <text x="120" y="750" font-family="Arial, sans-serif" font-size="22" fill="#1D1B18">Second form: select course, lesson title, content type, body / URL</text>
+
+  <rect x="860" y="280" width="440" height="560" rx="28" fill="#FFF8EF" stroke="#BAAF9D"/>
+  <text x="895" y="330" font-family="Arial, sans-serif" font-size="32" fill="#1D1B18">Oversight Panel</text>
+  <rect x="895" y="368" width="370" height="128" rx="18" fill="#F5EBDD" stroke="#B39F88"/>
+  <rect x="895" y="530" width="370" height="96" rx="18" fill="#F5EBDD" stroke="#B39F88"/>
+  <rect x="895" y="646" width="370" height="96" rx="18" fill="#F5EBDD" stroke="#B39F88"/>
+  <text x="920" y="408" font-family="Arial, sans-serif" font-size="24" fill="#1D1B18">My courses list</text>
+  <text x="920" y="442" font-family="Arial, sans-serif" font-size="20" fill="#5E5951">title, category, lesson count</text>
+  <text x="920" y="570" font-family="Arial, sans-serif" font-size="24" fill="#1D1B18">Recent activity item</text>
+  <text x="920" y="604" font-family="Arial, sans-serif" font-size="20" fill="#5E5951">action, actor, timestamp</text>
+  <text x="920" y="686" font-family="Arial, sans-serif" font-size="24" fill="#1D1B18">Recent activity item</text>
+  <text x="920" y="720" font-family="Arial, sans-serif" font-size="20" fill="#5E5951">security and compliance visibility</text>
+</svg>

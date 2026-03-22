@@ -1,0 +1,35 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="900" fill="#F4EFE6"/>
+  <rect x="40" y="32" width="1320" height="76" rx="20" fill="#FFF8EF" stroke="#B8A898"/>
+  <text x="70" y="79" font-family="Arial, sans-serif" font-size="28" fill="#7B5B33">KBC Learning Orbit</text>
+  <text x="1050" y="79" font-family="Arial, sans-serif" font-size="22" fill="#4C5B53">Catalog   Progress   Logout</text>
+
+  <text x="60" y="168" font-family="Arial, sans-serif" font-size="22" fill="#A66B2C">LEARNER FLOW</text>
+  <text x="60" y="214" font-family="Arial, sans-serif" font-size="48" fill="#1D1B18">Browse courses, open details, complete lessons</text>
+
+  <rect x="60" y="280" width="1240" height="250" rx="28" fill="#FFFDF9" stroke="#BAAF9D"/>
+  <text x="95" y="330" font-family="Arial, sans-serif" font-size="30" fill="#1D1B18">Course Catalog</text>
+  <rect x="95" y="362" width="350" height="125" rx="18" fill="#F2E4CF" stroke="#B39F88"/>
+  <rect x="475" y="362" width="350" height="125" rx="18" fill="#F2E4CF" stroke="#B39F88"/>
+  <rect x="855" y="362" width="350" height="125" rx="18" fill="#F2E4CF" stroke="#B39F88"/>
+  <text x="118" y="402" font-family="Arial, sans-serif" font-size="26" fill="#1D1B18">Card: course title</text>
+  <text x="118" y="438" font-family="Arial, sans-serif" font-size="20" fill="#5E5951">description + category + lesson count</text>
+  <text x="500" y="402" font-family="Arial, sans-serif" font-size="26" fill="#1D1B18">Card: course title</text>
+  <text x="500" y="438" font-family="Arial, sans-serif" font-size="20" fill="#5E5951">description + author + CTA</text>
+  <text x="880" y="402" font-family="Arial, sans-serif" font-size="26" fill="#1D1B18">Card: course title</text>
+  <text x="880" y="438" font-family="Arial, sans-serif" font-size="20" fill="#5E5951">consistent scan-friendly layout</text>
+
+  <rect x="60" y="570" width="830" height="260" rx="28" fill="#FFFDF9" stroke="#BAAF9D"/>
+  <text x="95" y="620" font-family="Arial, sans-serif" font-size="30" fill="#1D1B18">Course Detail</text>
+  <rect x="95" y="650" width="760" height="56" rx="16" fill="#E7F0EB" stroke="#9BB7AB"/>
+  <rect x="95" y="720" width="760" height="56" rx="16" fill="#FFF2E3" stroke="#CAA57A"/>
+  <text x="120" y="686" font-family="Arial, sans-serif" font-size="22" fill="#1D1B18">Lesson row with type pill, title, and "Mark complete"</text>
+  <text x="120" y="756" font-family="Arial, sans-serif" font-size="22" fill="#1D1B18">Video or text lesson content visible below header</text>
+
+  <rect x="930" y="570" width="370" height="260" rx="28" fill="#FFF8EF" stroke="#BAAF9D"/>
+  <text x="965" y="620" font-family="Arial, sans-serif" font-size="30" fill="#1D1B18">Progress</text>
+  <rect x="965" y="650" width="300" height="18" rx="9" fill="#E3DDD4"/>
+  <rect x="965" y="650" width="180" height="18" rx="9" fill="#0D7A5F"/>
+  <text x="965" y="704" font-family="Arial, sans-serif" font-size="22" fill="#1D1B18">3 / 5 lessons completed</text>
+  <text x="965" y="748" font-family="Arial, sans-serif" font-size="20" fill="#5E5951">Dedicated progress page repeats this pattern per course</text>
+</svg>

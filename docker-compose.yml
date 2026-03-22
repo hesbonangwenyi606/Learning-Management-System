@@ -1,0 +1,49 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: lms
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  mongodb:
+    image: mongo:8
+    volumes:
+      - mongodb_data:/data/db
+    ports:
+      - "27017:27017"
+
+  backend:
+    build:
+      context: ./backend
+    environment:
+      SECRET_KEY: development-secret-key
+      SQL_DATABASE_URL: postgresql+psycopg://postgres:postgres@postgres:5432/lms
+      MONGO_DATABASE_URL: mongodb://mongodb:27017
+      MONGO_DATABASE_NAME: lms
+      ADMIN_EMAIL: admin@lms-demo.com
+      ADMIN_PASSWORD: AdminPass1!
+      FRONTEND_ORIGIN: http://localhost:5173
+    depends_on:
+      - postgres
+      - mongodb
+    ports:
+      - "8000:8000"
+
+  frontend:
+    build:
+      context: ./frontend
+    environment:
+      VITE_API_BASE_URL: http://localhost:8000/api
+    depends_on:
+      - backend
+    ports:
+      - "5173:5173"
+
+volumes:
+  postgres_data:
+  mongodb_data:
